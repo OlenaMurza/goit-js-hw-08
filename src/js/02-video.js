@@ -20,3 +20,5 @@ player.on(
     localStorage.setItem(LOCAL_STORAGE, seconds);
   }, 1000)
 );
+
+
