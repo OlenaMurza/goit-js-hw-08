@@ -45,9 +45,3 @@ function loadForm() {
   }
 }
 
-player.on(
-  'timeupdate',
-  _throttle(({ seconds }) => {
-    localStorage.setItem(LOCAL_STORAGE, seconds);
-  }, 500)
-);
