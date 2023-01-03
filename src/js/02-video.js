@@ -6,7 +6,7 @@ import _throttle from 'lodash.throttle';
 
 const LOCAL_STORAGE = 'videoplayer-current-time';
 
-const player = new Vimeo('vimeo-player');
+const player = new Player('vimeo-player');
 
 player.on('loaded', () => {
   const currentTime = localStorage.getItem(LOCAL_STORAGE) || 0;
